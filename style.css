@@ -366,6 +366,10 @@
 
 /* Small (481px – 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
+.elegant-content-wrapper {
+                margin: 2rem 1rem;
+                padding: 2rem 1rem;
+            }    
     .magnificent-cta-buttons {
         flex-direction: column;
         gap: 1.5rem;
@@ -381,6 +385,10 @@
 
 /* Medium and above (769px+) */
 @media (min-width: 769px) {
+    .elegant-content-wrapper {
+                margin: 2rem 1rem;
+                padding: 2.5rem 1.5rem;
+            }
     .magnificent-cta-buttons {
         flex-direction: row;
         gap: 2rem;
